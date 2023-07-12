@@ -1,0 +1,23 @@
+{
+    "name": "GomezPierreProjectRecette",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "nodemon --watch src -e ts --exec ts-node src/main.ts"
+    },
+    "author": "Gomez Pierre",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "mysql2": "^3.3.0"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/node": "^18.16.3",
+        "nodemon": "^2.0.21",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}

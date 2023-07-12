@@ -1,0 +1,20 @@
+.grid-card2{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 20px;
+}
+.grid-card2>div>p{
+    font-size: 11px;
+}
+.card2{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+    background-color: rgb(79, 79, 77);
+    border-radius: 20px;
+    
+    place-content: space-evenly;
+
+}

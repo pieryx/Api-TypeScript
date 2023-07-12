@@ -1,0 +1,82 @@
+.grid-card{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 20px;
+    row-gap:20px;
+}
+
+.card-2{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(79, 79, 77);
+    border-radius: 20px;
+    height: 300px;
+    width: 250px;
+}
+.card{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(79, 79, 77);
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+.card-2>div {
+    display: flex;
+    flex-flow: row wrap;
+    
+    padding-left: 70px;
+    column-gap: 50px;
+}
+.option{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    
+    padding-left: 70px;
+    column-gap: 50px;
+}
+.card>div{
+    display: flex;
+    flex-flow: row wrap;
+    
+    padding-left: 70px;
+    column-gap: 50px;
+}
+.toque{
+    height:30px;
+}
+.photo{
+    border-top-left-radius: 50px;
+    
+    border-bottom-right-radius: 10px;
+}
+.card>p{
+    font-size: 20px;
+    padding: 5px;
+}
+.search{
+    
+    margin-bottom: 20px;
+  width: 100%;
+  border: 3px solid #646464;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #c2c2c2;
+
+
+
+}
+.search:focus{
+    color: #646464;
+  }
+  .little{
+    width: 25px;
+  }
+  .ajustement{
+    
+    padding-left: 40px !important;
+  }

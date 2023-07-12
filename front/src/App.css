@@ -1,0 +1,37 @@
+
+.App{
+  background-color: #282c34;
+  min-height: 100vh;
+  
+  margin: 0px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+Link{
+  text-decoration: none;
+}
+.App-header{
+  column-count: 2;
+  background-color: #17191d;
+  padding: 10px;
+  padding-left:50px;
+}
+h1{
+  font-size: 20px;
+  
+  margin: 0px;
+}
+.App-header>div{
+  text-align: center;
+  flex-flow: column wrap;
+  align-content: flex-end;
+  column-gap: 10px;
+  display: flex;
+}
+p{
+  margin:0px;
+  font-size: 15px;
+}
+.Content{
+  padding: 2%;
+}
